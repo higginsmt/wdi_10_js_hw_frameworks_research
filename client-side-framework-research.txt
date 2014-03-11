@@ -1,27 +1,68 @@
-Client-Side Javascript Frameworks Research HW
-Angular and Ember
+Client-Side Javascript Frameworks Research HW Angular and Ember
 
 Core Concepts:
 
-Angular.js is a client-side Javascript framework that lets you do data binding and dynamic substitution right inside your HTML tags. I've only used it in a very limited sense, but so far it feels quite easy to use. It feels like a logical extension of the template languages we've already seen - like erb and handlebars but with a lot more capability. Angular sells itself as the most "modular" and "injectable," they say that unlike other frameworks which require a full commitment, you can use as much or as little Angular as you want in your web app. The way I see it, though, the biggest advantage of Angular (from a "what should I invest time in learning that be around for a while" perspective) is that it is backed by Google. This means that even if the open-source enthusiasm dies down at some point, Angular will still be maintained by a team of professionals. For this reason alone, I would bet on Angular for long-term growth potential.
+Angular.js is a client-side Javascript framework that lets you do data binding
+and dynamic substitution right inside your HTML tags. I've only used it in a
+very limited sense, but so far it feels quite easy to use. It feels like a
+logical extension of the template languages we've already seen - like erb and
+handlebars but with a lot more capability. Angular sells itself as the most
+"modular" and "injectable," they say that unlike other frameworks which
+require a full commitment, you can use as much or as little Angular as you
+want in your web app. The way I see it, though, the biggest advantage of
+Angular (from a "what should I invest time in learning that be around for a
+while" perspective) is that it is backed by Google. This means that even if
+the open-source enthusiasm dies down at some point, Angular will still be
+maintained by a team of professionals. For this reason alone, I would bet on
+Angular for long-term growth potential.
 
-Ember bills itself as "designed to help developers build ambitiously large web applications." At the core of their philosophy is the idea that the URL is the central organizing principle of the web: "URLs are the key feature that give web applications superior shareability and collaboration. Today, most JavaScript frameworks treat the URL as an afterthought, instead of the primary reason for the web's success. Ember.js, therefore, marries the tools and concepts of native GUI frameworks with support for the feature that makes the web so powerful: the URL." Ember tries to be the most comprehensive for full-scale app-building, offering built-in library support for a wide variety of dependencies that would need to be added separately in other JS frameworks. This makes Ember a little larger, but  lot of people would consider the size difference trivial with the speed of most high speed connections nowadays. From a future growth perspective, Ember is the newest and the hottest right now. It has rapidly gained a large user base in only a year and a half, so it looks like Ember will be around for a while.
+Ember bills itself as "designed to help developers build ambitiously large web
+applications." At the core of their philosophy is the idea that the URL is the
+central organizing principle of the web: "URLs are the key feature that give
+web applications superior shareability and collaboration. Today, most
+JavaScript frameworks treat the URL as an afterthought, instead of the primary
+reason for the web's success. Ember.js, therefore, marries the tools and
+concepts of native GUI frameworks with support for the feature that makes the
+web so powerful: the URL." Ember tries to be the most comprehensive for full-
+scale app-building, offering built-in library support for a wide variety of
+dependencies that would need to be added separately in other JS frameworks.
+This makes Ember a little larger, but  lot of people would consider the size
+difference trivial with the speed of most high speed connections nowadays.
+From a future growth perspective, Ember is the newest and the hottest right
+now. It has rapidly gained a large user base in only a year and a half, so it
+looks like Ember will be around for a while.
 
-Angular and Ember are a little different is in their templating structure. Angular uses the existing HTML tags, while Ember uses Handlebars templates. In practice this supports the developers claims that Ember is more maintainable for large projects. Since all models in Angular must be function calls (and function calls must have parenthesis), this can cause maintainability problems for Angular across a big project if you want to make changes to the model down the road. At the beginning, though, Angular is a little simpler to get into than Ember since you don't have to build an entire MVC arhcitecture in your js files, you can just add the ng-controller and ng-view directives in your existing HTML tags as we saw in the in class example. I haven't used either one of these enough to be an expert or answer 'which is better' with authority, but it looks like Angular has some advantages when it comes to getting started and simplicity, and Ember has some advantages in being a more maintainable long term full-stack solution.
+Angular and Ember are a little different is in their templating structure.
+Angular uses the existing HTML tags, while Ember uses Handlebars templates. In
+practice this supports the developers claims that Ember is more maintainable
+for large projects. Since all models in Angular must be function calls (and
+function calls must have parenthesis), this can cause maintainability problems
+for Angular across a big project if you want to make changes to the model down
+the road. At the beginning, though, Angular is a little simpler to get into
+than Ember since you don't have to build an entire MVC arhcitecture in your js
+files, you can just add the ng-controller and ng-view directives in your
+existing HTML tags as we saw in the in class example. I haven't used either
+one of these enough to be an expert or answer 'which is better' with
+authority, but it looks like Angular has some advantages when it comes to
+getting started and simplicity, and Ember has some advantages in being a more
+maintainable long term full-stack solution.
 
+A lot of big sites use Ember: Yahoo, Zendesk, Groupon, and Living Social, to
+name some of the more well-known examples.
 
 
 
 Useful links:
 
 http://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks
-http://angularjs.org/
-http://emberjs.com/
-http://eviltrout.com/2013/06/15/ember-vs-angular.html
-http://readwrite.com/2014/02/06/angular-backbone-ember-best-javascript-framework-for-you#awesm=~oy8K5iEiOLaGqP
-http://www.infoworld.com/d/application-development/the-10-hottest-javascript-framework-projects-228335
-http://www.creativebloq.com/javascript/essential-javascript-top-five-mvc-frameworks-11122767
-http://coding.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/
+http://angularjs.org/ http://emberjs.com/ http://eviltrout.com/2013/06/15
+/ember-vs-angular.html http://readwrite.com/2014/02/06/angular-backbone-ember-
+best-javascript-framework-for-you#awesm=~oy8K5iEiOLaGqP
+http://www.infoworld.com/d/application-development/the-10-hottest-javascript-
+framework-projects-228335 http://www.creativebloq.com/javascript/essential-
+javascript-top-five-mvc-frameworks-11122767
+http://coding.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-
+ember-js/
 
 
 
